@@ -1,0 +1,111 @@
+/*
+* @Author: Redefinelab Ltd
+* @Date:   2017-11-09 11:39:49
+* @Last Modified by:   Md Shafkat Hussain Tanvir
+* @Last Modified time: 2017-11-09 18:43:18
+*/
+
+.menu{
+	/*border: 1px solid black;*/
+}
+.menu .item{
+	display: block;
+	border: 1px solid black;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: black;
+}
+.menu .item:hover{
+	background-color: #0371CF;
+	color: white;
+}
+.menu .col:last-child{
+	border-right: none;
+}
+#home-banner{
+	
+}
+.carousel-item img{
+	max-height: 400px !important;
+}
+.home-tabs{
+	position: relative;
+	margin-top: 10px;
+	/*border-bottom: 2px solid red;*/
+}
+.home-tabs li a{
+	margin-right: 2px;
+	padding-bottom: .5em;
+}
+.home-tabs li a.active{
+	padding-bottom: .9em;
+}
+.home-tabs a .divider{
+	border-bottom: none;
+}
+.home-tabs .popular{
+	background-color: #CC726F !important;
+	color: white !important;
+}
+
+.home-tabs a.active.popular .divider{
+	border-bottom: 2px solid #CC726F;
+}
+.home-tabs .category1{
+	background-color: #F8AB6B !important;
+	color: white !important;
+}
+.home-tabs a.active.category1 .divider{
+	border-bottom: 2px solid #F8AB6B;
+}
+.home-tabs .category2{
+	background-color: #9C86B6 !important;
+	color: white !important;
+}
+.home-tabs a.active.category2 .divider{
+	border-bottom: 2px solid #9C86B6;
+}
+.home-tabs .category3{
+	background-color: #76C0D4 !important;
+	color: white !important;
+}
+.home-tabs a.active.category3 .divider{
+	border-bottom: 2px solid #76C0D4;
+}
+.home-tabs .category4{
+	background-color: #ACC776 !important;
+	color: white !important;
+}
+.home-tabs a.active.category4 .divider{
+	border-bottom: 2px solid #ACC776;
+}
+.mt20{
+	margin-top: 20px;
+}
+.mt50{
+	margin-top: 50px;
+}
+.projects .item .box{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border: 1px solid grey;
+	border-radius: 5px;
+}
+.projects .item .box:last-child{
+	margin-left: 5px;
+	background-color: #F2DEDE;
+	color: #BF4842;
+}
+.footer{
+	background-color: grey;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	/*max-width: 100%;*/
+}
+.divider{
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+}
+
